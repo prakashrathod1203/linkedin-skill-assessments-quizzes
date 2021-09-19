@@ -859,7 +859,7 @@ export class OrderHistoryComponent {
 </ng-template>
 ```
 
-- [ ]
+- [x]
 
 ```angular2html
 <ng-template #inactive>
@@ -878,7 +878,7 @@ export class OrderHistoryComponent {
 }
 ```
 
-- [ ]
+- [x]
 
 ```
 {
@@ -925,8 +925,9 @@ export class UserFormControl implements OnInit {
 - [ ] The `FormControl` for `username` is getting configured to exclude three validators from the validators that it is allowed to use.
 - [ ] The `FormControl` for `username` is getting configured to allow three possible validators to be used: `required, maxLength`, and a custom one named `unique`. To enable these `validators`, a validator directive would need to be put on the form fields in the markup.
 - [ ] Validation cannot be set up this way in reactive forms.
-- [ ] The `FormControl` for `username` is getting configured with three validators: the `required` and `minLength` validators that come from Angular, and a custom validator function named `unique` that checks for the value not equal to the string `admin`.
+- [x] The `FormControl` for `username` is getting configured with three validators: the `required` and `minLength` validators that come from Angular, and a custom validator function named `unique` that checks for the value not equal to the string `admin`.
 
+[Reference (codecraft.tv)](https://codecraft.tv/courses/angular/advanced-topics/basic-custom-validators/)
 #### Q52. What does the Injectable decorator do on this service class?
 
 ```
@@ -937,6 +938,6 @@ export class DataService { }
 ```
 
 - [ ] It registers a provider for the service that is available only at the root module level, not to any children modules.
-- [ ] It registers a provider for the service in the root application injector, making a single instance of it available throughout the application.
+- [x] It registers a provider for the service in the root application injector, making a single instance of it available throughout the application.
 - [ ] It makes it so the service can be injected only in the bootstrapped component for the application.
 - [ ] It sets up a compile time rule that allows you to put the service type only in the providers metadata property of the root NgModule.
